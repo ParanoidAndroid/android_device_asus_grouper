@@ -38,6 +38,13 @@ ARCH_ARM_HAVE_TLS_REGISTER := true
 ARCH_ARM_USE_NON_NEON_MEMCPY := true
 TARGET_USE_LINARO_STRING_ROUTINES :=true
 
+# Set to true for platforms with 32 byte L2 cache line.
+ARCH_ARM_HAVE_32_BYTE_CACHE_LINES := true
+# Allowing unaligned access for NEON memory instructions. 
+ARCH_ARM_NEON_SUPPORTS_UNALIGNED_ACCESS := true
+# Sets the upper size limit for NEON unaligned memory access in memcpy. 
+BIONIC_MEMCPY_ALIGNMENT_DIVIDER := 224
+
 TARGET_USERIMAGES_USE_EXT4 := true
 
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 681574400
