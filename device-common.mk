@@ -20,7 +20,7 @@ else
   LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
 
-PRODUCT_AAPT_CONFIG := normal large tvdpi hdpi
+PRODUCT_AAPT_CONFIG := normal large tvdpi hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := tvdpi
 
 
