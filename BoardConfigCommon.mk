@@ -39,6 +39,7 @@ ARCH_ARM_USE_NON_NEON_MEMCPY := true
 TARGET_USE_LINARO_STRING_ROUTINES := true
 TARGET_GCC_VERSION := 4.7
 TARGET_USE_O3 := true
+TARGET_USE_GRAPHITE := true
 #TARGET_USE_LINARO_MEMCPY :=true
 TARGET_EXTRA_CFLAGS += $(call cc-option,-mtune=cortex-a9) $(call cc-option,-mcpu=cortex-a9)
 
