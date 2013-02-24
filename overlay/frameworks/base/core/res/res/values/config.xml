@@ -21,7 +21,10 @@
      for different hardware and product builds. -->
 <resources>
     <!-- Software blur is too slow on this device. -->
-    <bool name="config_sf_slowBlur">true</bool>
+    <bool name="config_sf_slowBlur">false</bool>
+
+    <!-- If this is true, the screen will fade off. -->	
+    <bool name="config_animateScreenLights">false</bool>
 
     <!-- XXXXX NOTE THE FOLLOWING RESOURCES USE THE WRONG NAMING CONVENTION.
          Please don't copy them, copy anything else. -->
